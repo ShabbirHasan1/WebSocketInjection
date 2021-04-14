@@ -39,7 +39,7 @@ Only get information
 })
 ```
 
-## Reponse
+## Response
 ```json
 {
     "error": "Boolean",
