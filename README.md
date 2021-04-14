@@ -30,7 +30,7 @@ Only get information
 ```js
 (async () => {
     try{
-        //Will make in the console but not a problem, it's to prevent that you didn't put any function to inject
+        //Will make a warn in the console but not a problem, it's to prevent that you didn't put any function to inject
         const reponse = await window.injectWebSocket(); 
         console.log(response);
     } catch(e) {
